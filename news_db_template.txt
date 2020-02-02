@@ -1,0 +1,57 @@
+Categories
+cat_id,cat_name,cat_staus,create_by,crate_date,updates,parent
+
+
+[{"update_by":"ali","update_date:"20-12-2019"},{"update_by":"Mohammed","update_date:"25-12-2019"},
+{"update_by":"khlood","update_date:"28-12-2019"}]
+
+
+1 —Ì«÷… dkddkdkd kdkdkdkdkd dkdkdkddk kdkdk d d dkddk    0
+2 «·œÊ—Ì «·«”»«‰Ì  dkjflskdjf kdfjladskfjsadlkfj dfkajsdf     1
+
+--------------------------------------------------------------
+
+posts 
+post_id,post_title,post_intro,post_content,post_img,post_status,cat_id,create_by,create_date,updates,publish_date
+ 
+---------------------------------------------------------
+comments 
+
+comm_id,comm_text,comm_date,user_id,comm_status,post_id
+
+----------------------------------------------------------
+users
+user_id,user_pass,user_email,user_full_name,user_phone,register_date,user_status,user_group_id
+1 Ibtehal kdfj lkdfjalsfkja fja
+falfaf a   1
+----------------------------------
+groups
+group_id,group_name,privllages,
+1	admins	    1,2,3,4
+2	users	     5
+------------------------------
+privllages
+prv_id,prv_title,priv_status
+1	addPost
+2	createUser
+3 	updateCat
+4	acceptComment
+5	addComment
+---------------------------------------------------------------
+breaking_news
+break_id,preak_content,start_date,end_date,create_by;
+----------------------------------------------------------------
+votes
+vote_id,vote_question,vote_start,vote_end,vote_options,user_ids
+
+1	Â· ” ‰ ÂÌ «·Õ—» ›Ì «·Ì„‰  10-12-2019   20-12-2019
+[{"yes":0},{"no":1},{"i dont' know":2}]      7,15,2
+
+-------------------------------------------------------------------
+files 
+
+id,title,type,path,create_date,create_by,status
+--------------------------------------------------------------------
+
+
+
